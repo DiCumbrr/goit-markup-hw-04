@@ -22,27 +22,31 @@
 
   <body>
     <!-- Шапка сайта-->
-    <header class="header-page border">
+    <header class="header-page">
       <div class="container">
         <div class="box">
           <nav class="header-page-nav">
             <a href="./index.html" class="logo"><span class="accent">Web</span>Studio</a>
             <ul class="site-nav list">
-              <li class="list-item"><a href="./index.html" class="link">Студия</a></li>
+              <li class="list-item"><a href="index.html" class="link">Студия</a></li>
               <li class="list-item">
                 <a href="./portfolio.html" class="link current">Портфолио</a>
               </li>
-              <li class="list-item">
-                <a href="" class="link">Контакты</a>
-              </li>
+              <li class="list-item"><a href="" class="link">Контакты</a></li>
             </ul>
           </nav>
 
           <ul class="contact list">
             <li class="contacts-item">
+              <svg class="contacts-icon-header" id="icon-envelope" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+              </svg>
               <a href="mailto:info@devstudio.com" class="contact-title">info@devstudio.com</a>
             </li>
             <li class="contacts-item">
+              <svg class="contacts-icon-header" id="icon-smartphone" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
               <a href="tel:+380991111111" class="contact-title">+38 096 111 11 11</a>
             </li>
           </ul>
@@ -156,29 +160,68 @@
 
     <!-- Футер -->
     <footer class="adress">
-      <div class="container">
-        <a href="./index.html" class="logo-footer"
-          ><span class="accent">Web</span><span class="accent-logo">Studio</span></a
-        >
-        <address>
-          <ul class="contacts list">
-            <li class="contact-adress">
-              <a
-                href="https://goo.gl/maps/pnNfETj2RrLpbSRX6"
-                target="_blank"
-                rel="nooper noreferrer"
-                class="adress-title"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
-            </li>
-            <li class="contact-adress">
-              <a href="mailto:info@devstudio.com" class="contact-item"> info@devstudio.com</a>
-            </li>
-            <li class="contact-adress">
-              <a href="tel:+380991111111" class="contact-item"> +38 099 111 11 11</a>
-            </li>
-          </ul>
-        </address>
+      <div class="contact-wrap">
+        <div class="container">
+          <section class="contact-link">
+            <a href="./index.html" class="logo-footer"
+              ><span class="accent">Web</span><span class="accent-logo">Studio</span></a
+            >
+            <address>
+              <ul class="contacts list">
+                <li class="contact-adress">
+                  <a
+                    href="https://goo.gl/maps/pnNfETj2RrLpbSRX6"
+                    target="_blank"
+                    rel="nooper noreferrer"
+                    class="adress-title"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="contact-adress">
+                  <a href="mailto:info@devstudio.com" class="contact-item"> info@devstudio.com</a>
+                </li>
+                <li class="contact-adress">
+                  <a href="tel:+380991111111" class="contact-item"> +38 099 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </section>
+          <div class="contacts-wrap-link">
+            <section class="contacts-link">
+              <h2 class="contacts-link-title">Присоединяйтесь</h2>
+              <ul class="contacts-link-list list">
+                <li class="contacts-icon">
+                  <a href="" class="contacts-icon-link">
+                    <svg class="contacts-icons" id="icon-instagram" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="contacts-icon">
+                  <a href="" class="contacts-icon-link">
+                    <svg class="contacts-icons" id="icon-twitter" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="contacts-icon">
+                  <a href="" class="contacts-icon-link">
+                    <svg class="contacts-icons" id="icon-facebook" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="contacts-icon">
+                  <a href="" class="contacts-icon-link">
+                    <svg class="contacts-icons" id="icon-linkedin" width="20" height="20">
+                      <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
