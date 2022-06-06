@@ -47,7 +47,7 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .box {
@@ -421,6 +421,7 @@ body {
 .feature-icon-list {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
 }
 
 .feature-icon {
